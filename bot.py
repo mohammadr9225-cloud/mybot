@@ -208,7 +208,7 @@ async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
         else:
             await update.message.reply_text(
-                f"❌ موجودی کیف پول کافی نیست!\n\n💰 مبلغ لازم: {price:,} تومان\n💳 موجودی شما: {user['wallet']:,} تومان\n\nبرای شارژ به @Void_66 پیام دهید.",
+                f"❌ موجودی کیف پول کافی نیست!\n\n💰 مبلغ لازم: {price:,} تومان\n💳 موجودی شما: {user['wallet']:,} تومان\n\nبرای شارژ به @Void_466 پیام دهید.",
                 reply_markup=back_menu()
             )
             context.user_data['action'] = None
