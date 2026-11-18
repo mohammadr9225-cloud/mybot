@@ -11,7 +11,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 PRICE_PER_GB = 5000
-SUPPORT_ID = "@Void_6646" # آیدی اصلاح شده
+SUPPORT_ID = "@Void_466" # آیدی اصلاح شده
 
 async def get_db():
     url = DATABASE_URL.replace("postgres://", "postgresql://", 1) if DATABASE_URL.startswith("postgres://") else DATABASE_URL
